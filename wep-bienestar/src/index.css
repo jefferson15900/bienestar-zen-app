@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  /* --- Paleta "Minimalismo Zen Moderno" --- */
+
+  /* Colores de Fondo y Superficie */
+  --color-background: #FCFDFD;  /* Blanco roto: para el fondo general del sitio */
+  --color-surface: #FFFFFF;     /* Blanco puro: para tarjetas, modales y elementos elevados */
+
+  /* Color Primario (El verde salvia) */
+  --color-primary: #87A9A0;       /* Verde Salvia: para elementos de soporte, enlaces, bordes sutiles */
+  --color-primary-light: #A8C6BE; /* Verde Salvia claro: para estados hover o elementos menos importantes */
+
+  /* Color de Acento (Para llamadas a la acción) */
+  --color-accent: #F2A287;        /* Coral Suave: para botones principales (CTAs), elementos que deben destacar */
+  --color-accent-dark: #E68E71;   /* Coral oscuro: para el estado hover de los botones de acento */
+
+  /* Colores de Texto */
+  --color-text-main: #363636;   /* Gris Carbón: para párrafos y títulos principales */
+  --color-text-muted: #7A7A7A;  /* Gris Suave: para textos secundarios, metadatos, placeholders */
+}
+
