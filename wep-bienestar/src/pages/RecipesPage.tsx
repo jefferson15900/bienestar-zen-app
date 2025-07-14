@@ -1,6 +1,6 @@
 // Ubicación: src/pages/RecipesPage.tsx
 
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { MainLayout } from "../components/layout/MainLayout";
 import { Card } from "../components/ui/Card";
 

@@ -1,6 +1,6 @@
 // Ubicación: src/pages/GenericQuizPage.tsx
 
-import React, { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { MainLayout } from '../components/layout/MainLayout';
 import { useWellnessJournal } from '../hooks/useWellnessJournal';
@@ -10,7 +10,7 @@ import { meditationQuiz, type MeditationStyle } from '../data/meditationQuiz';
 // --- Importamos los datos y tipos de TODOS los quizzes ---
 import { energyQuiz, type EnergyThief } from '../data/quiz';
 import { personalityQuiz, type ExercisePersonality } from '../data/personalityQuiz';
-import type { QuizQuestion } from '../data/quiz'; // Interfaz genérica
+
 
 // --- Definiciones de los Quizzes ---
 // Un objeto que centraliza la información de cada quiz

@@ -1,6 +1,6 @@
 // Ubicación: src/components/layout/Header.tsx
 
-import React from 'react';
+
 import { Link, useLocation } from 'react-router-dom'; // 1. Importa el hook useLocation
 
 export function Header() {

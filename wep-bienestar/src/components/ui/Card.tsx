@@ -1,5 +1,5 @@
 // En src/components/ui/Card.tsx
-import React from 'react';
+
 
 interface CardProps {
   imageUrl: string;

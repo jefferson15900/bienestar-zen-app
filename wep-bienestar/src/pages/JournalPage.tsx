@@ -1,9 +1,9 @@
 // Ubicación: src/pages/JournalPage.tsx
 
-import React from 'react';
+
 import { MainLayout } from '../components/layout/MainLayout';
 import { useWellnessJournal } from '../hooks/useWellnessJournal'; // 1. Importamos nuestro hook
-import { Button } from '../components/ui/Button';
+
 
 export function JournalPage() {
   // 2. Usamos el hook para obtener las entradas y la función para limpiar

@@ -1,6 +1,6 @@
 // Ubicación: src/pages/ToolsPage.tsx
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { MainLayout } from '../components/layout/MainLayout';
 import { useWellnessJournal } from '../hooks/useWellnessJournal';
 
