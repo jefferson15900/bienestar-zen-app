@@ -25,7 +25,7 @@ export function RecipesPage() {
         setIsLoading(true);
         setError(null);
 
-        const response = await fetch('http://localhost:3001/api/healthy-recipes');
+        const response = await fetch('https://bienestar-zen-api.onrender.com/api/healthy-recipes');
         if (!response.ok) {
           throw new Error("Error al cargar las recetas.");
         }

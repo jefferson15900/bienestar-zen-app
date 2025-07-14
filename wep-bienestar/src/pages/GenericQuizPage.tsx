@@ -114,7 +114,7 @@ export function GenericQuizPage() {
     setGeneratedTip(null);
     try {
       // Usamos un endpoint genérico. Lo crearemos en el backend.
-      const response = await fetch('http://localhost:3001/api/get-generic-tip', {
+      const response = await fetch('https://bienestar-zen-api.onrender.com/api/get-generic-tip', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ context, result: quizResult }),

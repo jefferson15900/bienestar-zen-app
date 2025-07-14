@@ -51,7 +51,7 @@ export function ToolsPage() {
     setGeneratedRoutine(null);
 
     try {
-      const response = await fetch('http://localhost:3001/api/generate-routine', {
+      const response = await fetch('https://bienestar-zen-api.onrender.com/api/generate-routine', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(selections),
